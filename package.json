@@ -2,6 +2,15 @@
   "name": "nuxt-svg-sprite-loader",
   "version": "1.0.0",
   "description": "Nuxt module for svg-sprite-loader",
+  "keywords": [
+    "nuxt",
+    "svg",
+    "sprite",
+    "webpack",
+    "loader",
+    "use",
+    "id"
+  ],
   "repository": "dword-design/nuxt-svg-sprite-loader",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
