@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.4...v1.0.5) (2020-12-10)
+
+
+### Bug Fixes
+
+* replace get-package-name with depcheck-package-name ([03c6926](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/03c692698fce49af55213f28a246e733970ce313))
+
 ## [1.0.4](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.3...v1.0.4) (2020-12-10)
 
 
