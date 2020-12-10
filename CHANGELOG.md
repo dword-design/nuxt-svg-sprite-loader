@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.3...v1.0.4) (2020-12-10)
+
+
+### Bug Fixes
+
+* remove unneeded core-js dependency ([20116ec](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/20116ec84c46a25bb9ca268f43f66c7789b324ed))
+
 ## [1.0.3](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.2...v1.0.3) (2020-12-02)
 
 
