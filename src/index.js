@@ -1,4 +1,4 @@
-import getPackageName from 'get-package-name'
+import packageName from 'depcheck-package-name'
 
 const svgRulePredicate = rule => rule.test && rule.test.test('.svg')
 
@@ -8,7 +8,7 @@ export default function (moduleOptions) {
     const imageLoaderRule = config.module.rules.find(svgRulePredicate)
     imageLoaderRule.test = /\.(png|jpe?g|gif|webp)$/
     config.module.rules.push({
-      loader: getPackageName(require.resolve('svg-sprite-loader')),
+      loader: packageName`svg-sprite-loader`,
       options,
       test: /\.svg$/,
     })

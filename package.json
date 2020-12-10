@@ -28,7 +28,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "get-package-name": "^1.1.0",
+    "depcheck-package-name": "^1.0.0",
     "svg-sprite-loader": "^5.0.0"
   },
   "devDependencies": {
