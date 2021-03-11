@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.8...v1.0.9) (2021-03-11)
+
+
+### Bug Fixes
+
+* update changed files ([8dd80db](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/8dd80db7b9e42e26438b88d71c705128625ebf3b))
+* update description ([ed69e41](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/ed69e4179d4a564de6baf603f2f4d55738545ee3))
+
 ## [1.0.8](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.7...v1.0.8) (2021-03-09)
 
 
