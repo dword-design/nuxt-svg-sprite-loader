@@ -14,6 +14,7 @@ const runTest = config => () => {
       'pages/index.vue': config.page,
     })
     const nuxt = new Nuxt({
+      createRequire: 'native',
       dev: false,
       modules: [['~/../src', config.options]],
     })
