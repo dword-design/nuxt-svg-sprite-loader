@@ -34,7 +34,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-Nuxt module for svg-sprite-loader
+Nuxt.js module for svg-sprite-loader.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
