@@ -12,6 +12,7 @@
     "id"
   ],
   "repository": "dword-design/nuxt-svg-sprite-loader",
+  "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
