@@ -6,13 +6,16 @@ import withLocalTmpDir from 'with-local-tmp-dir'
 
 let browser
 let page
+
 const runTest = config => () => {
   config = { resultingId: 'logo', ...config }
+
   return withLocalTmpDir(async () => {
     await outputFiles({
       'assets/logo.svg': '<svg xmlns="http://www.w3.org/2000/svg" />',
       'pages/index.vue': config.page,
     })
+
     const nuxt = new Nuxt({
       createRequire: 'native',
       dev: false,
@@ -22,6 +25,7 @@ const runTest = config => () => {
     await nuxt.listen()
     try {
       await page.goto('http://localhost:3000')
+
       const handle = await page.waitForSelector('#__layout')
       expect(
         await handle.evaluate(layout =>
