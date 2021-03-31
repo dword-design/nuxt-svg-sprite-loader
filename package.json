@@ -1,6 +1,6 @@
 {
   "name": "nuxt-svg-sprite-loader",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Nuxt.js module for svg-sprite-loader.",
   "keywords": [
     "nuxt",
