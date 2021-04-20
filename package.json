@@ -2,15 +2,7 @@
   "name": "nuxt-svg-sprite-loader",
   "version": "1.0.15",
   "description": "Nuxt.js module for svg-sprite-loader.",
-  "keywords": [
-    "nuxt",
-    "svg",
-    "sprite",
-    "webpack",
-    "loader",
-    "use",
-    "id"
-  ],
+  "keywords": [],
   "repository": "dword-design/nuxt-svg-sprite-loader",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -42,5 +34,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "homepage": ""
 }
