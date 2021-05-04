@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v4 ([#37](https://github.com/dword-design/nuxt-svg-sprite-loader/issues/37)) ([437ad64](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/437ad64136e160ddcc2e94dc0408afca0531b4b7))
+
 # [2.0.0](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v1.0.17...v2.0.0) (2021-05-03)
 
 
