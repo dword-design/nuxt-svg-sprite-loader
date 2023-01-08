@@ -38,7 +38,7 @@
     "@dword-design/puppeteer": "^5.0.0",
     "nuxt": "^2.13.3",
     "output-files": "^2.0.0",
-    "with-local-tmp-dir": "^4.0.0"
+    "with-local-tmp-dir": "^5.0.0"
   },
   "engines": {
     "node": ">=12"
