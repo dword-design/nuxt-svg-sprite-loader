@@ -32,7 +32,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "depcheck-package-name": "^2.0.0",
+    "depcheck-package-name": "^3.0.0",
     "svg-sprite-loader": "^6.0.0"
   },
   "devDependencies": {
