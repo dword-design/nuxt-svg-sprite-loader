@@ -1,3 +1,10 @@
+## [2.0.11](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.10...v2.0.11) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([5698986](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/5698986aa60a783a983de555828e946aba2fd1a7))
+
 ## [2.0.10](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.9...v2.0.10) (2023-04-09)
 
 
