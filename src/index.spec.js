@@ -11,53 +11,53 @@ export default tester(
   {
     jsx: {
       page: endent`
-      <script>
-      import Logo from '@/assets/logo.svg'
+        <script>
+        import Logo from '@/assets/logo.svg'
 
-      export default {
-        render() {
-          return <svg><use xlinkHref={\`#\${Logo.id}\`}></use></svg>
+        export default {
+          render() {
+            return <svg><use xlinkHref={\`#\${Logo.id}\`}></use></svg>
+          }
         }
-      }
-      </script>
+        </script>
 
-    `,
+      `,
     },
     options: {
       options: {
         symbolId: 'foo-[name]',
       },
       page: endent`
-      <script>
-      import Logo from '@/assets/logo.svg'
+        <script>
+        import Logo from '@/assets/logo.svg'
 
-      export default {
-        render() {
-          return <svg><use xlinkHref={\`#\${Logo.id}\`}></use></svg>
+        export default {
+          render() {
+            return <svg><use xlinkHref={\`#\${Logo.id}\`}></use></svg>
+          }
         }
-      }
-      </script>
+        </script>
 
-    `,
+      `,
       resultingId: 'foo-logo',
     },
     template: {
       page: endent`
-      <template>
-        <svg><use :xlink:href="'#' + Logo.id"></use></svg>
-      </template>
-      
-      <script>
-      import Logo from '@/assets/logo.svg'
+        <template>
+          <svg><use :xlink:href="'#' + Logo.id"></use></svg>
+        </template>
 
-      export default {
-        computed: {
-          Logo: () => Logo,
-        },
-      }
-      </script>
+        <script>
+        import Logo from '@/assets/logo.svg'
 
-    `,
+        export default {
+          computed: {
+            Logo: () => Logo,
+          },
+        }
+        </script>
+
+      `,
     },
   },
   [
@@ -85,14 +85,14 @@ export default tester(
             const handle = await this.page.waitForSelector('#__layout')
             expect(
               await handle.evaluate(layout =>
-                layout.querySelector('svg use').getAttribute('xlink:href')
-              )
+                layout.querySelector('svg use').getAttribute('xlink:href'),
+              ),
             ).toEqual(`#${config.resultingId}`)
             expect(
               await this.page.$eval(
                 `#${config.resultingId}`,
-                logo => logo.tagName
-              )
+                logo => logo.tagName,
+              ),
             ).toEqual('symbol')
           } finally {
             await nuxt.close()
@@ -100,5 +100,5 @@ export default tester(
         }
       },
     },
-  ]
+  ],
 )
