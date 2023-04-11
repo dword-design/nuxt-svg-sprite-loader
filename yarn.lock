@@ -1896,9 +1896,9 @@
     yaml "^1.8.2"
 
 "@dword-design/chdir@^2.0.0":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@dword-design/chdir/-/chdir-2.1.1.tgz#9d7ce6b3530381165415d6b8ed0b0994071ab0e8"
-  integrity sha512-PdWo7bwhmplqhJyTF8CNPpECj6Ivv85i+N9AAdTvL0b1xr910xJDAWuYUDUu/Lf1fz5mVeFqarNaxPLsQwNfig==
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@dword-design/chdir/-/chdir-2.1.4.tgz#bd96e7571bf792a6b1e50a9e64999f1520dde777"
+  integrity sha512-cHpMTx4XepHQi3hmDnKma5YXU4pm01k9xKI1k8Wwq25cN3j0FCWbiji11hdrRYr6+uDC9mrb/M5Mo0okYiNRzA==
 
 "@dword-design/ci@^3.0.0":
   version "3.0.9"
@@ -2031,11 +2031,11 @@
     xvfb "^0.4.0"
 
 "@dword-design/tester-plugin-tmp-dir@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.7.tgz#6200dac7f335f2ee133b57f1898a19d4bcc347fb"
-  integrity sha512-Yzv/XcW4PFdoR0F62/PIf1UpF2P1qpy568AecIKkupp3MjQJC7V1o13fBQnFtkl8/B0lbhAe+nX8CkgiIOR0Sg==
+  version "2.1.26"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.26.tgz#7d842cee15977acba1e3c93446b869103fb75d29"
+  integrity sha512-3ZtSfP0bOLszp/GO3zQ7XAJvkzkXS0Z2jZlVlM/rZYb+PaZB/pSgQ3824ipgwmBr2rOe9m3SZJcuYe7fo6GSjQ==
   dependencies:
-    with-local-tmp-dir "^4.0.0"
+    with-local-tmp-dir "^5.0.0"
 
 "@dword-design/tester@^2.0.12":
   version "2.0.18"
@@ -16018,10 +16018,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-with-local-tmp-dir@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-4.1.0.tgz#8af69f0ebe10e930c9627f5eceb6b169b240afe9"
-  integrity sha512-cf1vG89YXvXfIU/yEf/YvOLr5onJxEj9vSaSeIPcgvvr5Uk91VPGfe8CfAJPcg9kiaieeSixZKGe6IAr+K91eA==
+with-local-tmp-dir@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/with-local-tmp-dir/-/with-local-tmp-dir-5.0.1.tgz#5fa0570e1560008c6089c8f6759a5236f7af4a28"
+  integrity sha512-Ds8Ssl9sfMZArPBlSkEQwxh+EVq3IG8lWxTUipe1ZxP5eNNrkRC622ukpAkhR63jCSu5mvqJ/3bEl1RakRZufw==
   dependencies:
     "@dword-design/chdir" "^2.0.0"
     tmp-promise "^3.0.0"
