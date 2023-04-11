@@ -1,3 +1,10 @@
+## [2.0.20](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.19...v2.0.20) (2023-04-11)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-tmp-dir to v2.1.26 ([659662e](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/659662e791470317b05db7e8a05991d53c54aabb))
+
 ## [2.0.19](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.18...v2.0.19) (2023-04-11)
 
 
