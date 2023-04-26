@@ -1,3 +1,10 @@
+## [2.0.24](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.23...v2.0.24) (2023-04-26)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.66 ([3ebe0fa](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/3ebe0fa5a5bbb32bb6b33b130a59cf2fcd20fe5e))
+
 ## [2.0.23](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.22...v2.0.23) (2023-04-20)
 
 
