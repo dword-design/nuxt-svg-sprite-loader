@@ -1,3 +1,10 @@
+## [2.0.27](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.26...v2.0.27) (2023-08-12)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v2.17.1 ([9621800](https://github.com/dword-design/nuxt-svg-sprite-loader/commit/9621800960c85f4dc906f17a6b0a15ef85ae4ba2))
+
 ## [2.0.26](https://github.com/dword-design/nuxt-svg-sprite-loader/compare/v2.0.25...v2.0.26) (2023-06-22)
 
 
