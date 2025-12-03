@@ -42,7 +42,7 @@
     "@dword-design/tester": "^2.0.12",
     "@dword-design/tester-plugin-puppeteer": "^2.1.22",
     "@dword-design/tester-plugin-tmp-dir": "^2.1.7",
-    "nuxt": "^2.13.3",
+    "nuxt": "^3.0.0",
     "output-files": "^2.0.0"
   },
   "engines": {
